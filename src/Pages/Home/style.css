@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.nome-topo {
+    height: 60px;
+    width: auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-topo {
+    padding: 20px;
+    text-decoration: none;
+}
