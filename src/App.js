@@ -1,10 +1,14 @@
 import './App.css';
-import Rotas from './Rotas';
+import Topo from "./Componentes/Topo";
+import Home from './Componentes/Home';
+import Sobre from './Componentes/Sobre';
 
 function App() {
   return (
     <div className="App">
-      <Rotas/>
+      <Topo />
+      <Home />
+      <Sobre />
     </div>
   );
 }

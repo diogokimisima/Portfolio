@@ -1,5 +1,4 @@
-import './style.css';
-import { Link } from 'react-router-dom';
+import './topo.css';
  
 export default function Topo() {
     return (
@@ -9,9 +8,10 @@ export default function Topo() {
                     DIOGO DEV
                 </div>
                 <nav>
-                    <div className='links'>
-                        <Link className='link-topo' to="/" >HOME</Link>
-                        <Link className='link-topo' to="/Projetos">PROJETOS</Link>
+                    <div>
+                        <a href='/' className='link-topo' to="/" >HOME</a>
+                        <a href='/' className='link-topo' to="/Projetos">PROJETOS</a>
+                        <a href='/' className='link-topo' to="/Sobre">SOBRE</a>
                     </div>
                 </nav>
             </div>
