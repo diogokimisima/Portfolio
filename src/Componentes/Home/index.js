@@ -1,5 +1,7 @@
 import './home.css';
 import fotoBanner from '../../img/FotoBanner.jpg';
+import iconeCurriculo from '../../img/icone-curriculo.jpg';
+import iconePerfil from '../../img/icone-linkedin.png';
 
 export default function Home() {
     return (
@@ -8,10 +10,10 @@ export default function Home() {
                 <div className='descricao-home'>
                     <h1>Seja bem vindo!</h1>
                     <h2>Meu nome é Diogo</h2>
-                    <span className='span'>| Desenevolvedor FrontEnd</span>
+                    <span className='span'>| Front-End Developer</span>
                     <div className='secao-link'>
-                        <a className='link'><img src="" alt="curriculo"/>Currículo</a>
-                        <a className='link'><img src="" alt="perfil"/>Meu Perfil</a>
+                        <a className='link' href="/" ><img src={iconeCurriculo} alt="curriculo"/>Currículo</a>
+                        <a className='link' href="https://www.linkedin.com/in/diogo-kimisima/" target='blank' ><img src={iconePerfil} alt="perfil"/>Meu Perfil</a>
                     </div>
                     
                 </div>
