@@ -8,12 +8,26 @@ header {
 .nome-topo {
     height: 60px;
     width: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nome-topo h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: normal;
+    
+}
+
+.nome-topo h2 {
+    color: gray;
+    font-size: 20px;
+    margin-top: -10px;
 }
 
 .link-topo {

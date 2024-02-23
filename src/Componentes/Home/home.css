@@ -23,6 +23,12 @@
     font-size: 45px;
 }
 
+.descricao-home p {
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    line-height: 30px;
+}
+
 .span {
     font-size: 30px;
     margin-bottom: 30px;
@@ -69,4 +75,9 @@
 .link:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.596);
+}
+
+.secao-redes {
+    display: flex;
+    flex-direction: row;
 }
