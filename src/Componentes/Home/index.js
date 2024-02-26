@@ -1,7 +1,8 @@
 import './home.css';
 import fotoBanner from '../../img/FotoBanner.jpg';
-import iconeCurriculo from '../../img/icone-curriculo.png';
-import iconePerfil from '../../img/icone-linkedin.jpg';
+import iconeLinkedin from '../../img/icone-linkedin2.png';
+import iconeGithub from '../../img/icone-github.png';
+import iconeInsta from '../../img/icone-insta.png';
 
 export default function Home() {
     return (
@@ -12,15 +13,15 @@ export default function Home() {
                     <span className='span'>| Front-End Developer</span>
                     <p>Olá, seja bem vindo(a)! Prepadado(a) para uma experiência arrebatadora? Prazer, sou desenvolvedor Front-end. Fique a vontade para conhecer melhor o meu trabalho.</p>
                     <div className='secao-link'>
-                        <a className='link' href="/" ><img src={iconeCurriculo} alt="curriculo"/>Baixar CV</a>
-                        <a className='link' href="https://www.linkedin.com/in/diogo-kimisima/" target='blank' ><img src={iconePerfil} alt="perfil"/>Meu Perfil</a>
+                        <a className='link link-baixarCV' href="/" >Baixar CV</a>
+                        <a className='link link-meus-projetos' href="https://www.linkedin.com/in/diogo-kimisima/" target='blank' >Meus Projetos</a>
                     </div>
                     <div className='secao-redes'>
                         <p>Minhas redes: </p>
-                        <div>
-                            <a><img src="" alt="linkedin"/></a>
-                            <a><img src="" alt="github"/></a>
-                            <a><img src="" alt="instagram"/></a>
+                        <div className='secao-minhas-redes'>
+                            <a href="/" className='link-social'><img src={iconeLinkedin} alt="linkedin"/></a>
+                            <a href="/" className='link-social'><img src={iconeGithub} alt="github"/></a>
+                            <a href="/" className='link-social'><img src={iconeInsta} alt="instagram"/></a>
                         </div>
                     </div>
                     
