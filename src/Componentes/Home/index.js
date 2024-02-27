@@ -19,9 +19,9 @@ export default function Home() {
                     <div className='secao-redes'>
                         <p>Minhas redes: </p>
                         <div className='secao-minhas-redes'>
-                            <a href="/" className='link-social'><img src={iconeLinkedin} alt="linkedin"/></a>
-                            <a href="/" className='link-social'><img src={iconeGithub} alt="github"/></a>
-                            <a href="/" className='link-social'><img src={iconeInsta} alt="instagram"/></a>
+                            <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeLinkedin} alt="linkedin"/></a>
+                            <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeGithub} alt="github"/></a>
+                            <a href="https://www.instagram.com/diogokimisima/" className='link-social' target='blank'><img src={iconeInsta} alt="instagram"/></a>
                         </div>
                     </div>
                     

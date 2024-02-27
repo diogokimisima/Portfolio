@@ -1,0 +1,29 @@
+.secao-sobre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.secao-sobre img {
+    width: 450px;
+}
+
+.sobre-descricao h4{
+    font-size: 15px;
+    color: #6932F5;
+    margin-bottom: 14px;
+}
+
+.secao-sobre h2{
+    font-size: 29px;
+    margin-bottom: 16px;
+    max-width: 520px
+}
+
+.secao-sobre p {
+    font-size: 18px;
+    width: 600px;
+    letter-spacing: 1px;
+}
