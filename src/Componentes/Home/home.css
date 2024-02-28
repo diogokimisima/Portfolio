@@ -83,6 +83,10 @@
     border: solid 2px #6932f5;
 }
 
+.link-meus-projetos {
+    background-color: rgba(0, 0, 0, 0.312);
+}
+
 .link-baixarCV:hover{
     background-color: transparent;
 }
@@ -108,4 +112,20 @@
 .link-social img:hover{
     transform: translateY(-8px);
     transition: all 0.8s ease-in-out;
+}
+
+.span-desc{
+    padding: 5px 25px;
+    background: rgb(63,48,71);
+    background: linear-gradient(135deg, rgba(63,48,71,1) 48%, rgba(81,113,165,1) 76%);
+    box-shadow: #6932f5 0px 1px 5px;
+    border-radius: 100px;
+    color: #F4FAFF;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

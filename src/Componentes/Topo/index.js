@@ -5,13 +5,12 @@ export default function Topo() {
         <header>
             <div className='limitar-secao navbar'>
                 <div className='nome-topo'>
-                    <h1>Diogo kimisima</h1>
-                    <h2>Front-End Developer</h2>
+                    <h1>Diogo<span>.dev</span></h1>
                 </div>
                 <nav>
                     <div>
                         <a href='/' className='link-topo link-home' to="/" >Home</a>
-                        <a href='/' className='link-topo' to="/Sobre">Sobre</a>
+                        <a href='#sobre' className='link-topo' to="/Sobre">Sobre</a>
                         <a href='/' className='link-topo' to="/Sobre">Skills</a>
                         <a href='/' className='link-topo' to="/Projetos">Educação</a>
                         <a href='/' className='link-topo' to="/Projetos">Projetos</a>

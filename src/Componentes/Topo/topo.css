@@ -19,15 +19,14 @@ header div {
 }
 
 .nome-topo h1 {
-    font-family: "Anton", sans-serif;
-    font-weight: normal;
-
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
 }
 
-.nome-topo h2 {
-    color: gray;
-    font-size: 20px;
-    margin-top: -10px;
+.nome-topo span {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    color: #6932f5;
 }
 
 .link-topo {
