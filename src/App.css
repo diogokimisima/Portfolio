@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: #16181A;
     color: white;
+    scroll-behavior: smooth;
 }
 
 .limitar-secao {

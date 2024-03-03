@@ -13,10 +13,12 @@ export default function Home() {
                     <h2>Diogo Kimisima</h2>
                     <span className='span'>| Front-End Developer</span>
                     <p>Olá, seja bem vindo(a)! Prepadado(a) para uma experiência arrebatadora? Prazer, sou desenvolvedor Front-end. Fique a vontade para conhecer melhor o meu trabalho.</p>
+
                     <div className='secao-link'>
                         <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a>
                         <a className='link link-meus-projetos' href="https://www.linkedin.com/in/diogo-kimisima/" target='blank' >Meus Projetos</a>
                     </div>
+
                     <div className='secao-redes'>
                         <p>Minhas redes: </p>
                         <div className='secao-minhas-redes'>
