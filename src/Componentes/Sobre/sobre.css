@@ -23,7 +23,10 @@
 }
 
 .secao-sobre p {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     width: 600px;
     letter-spacing: 1px;
+    line-height: 25px;
 }
+
