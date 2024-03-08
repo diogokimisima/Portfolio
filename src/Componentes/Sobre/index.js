@@ -9,7 +9,7 @@ export default function Sobre() {
                         <h4>Quem sou eu?</h4>
                         <h2>Diogo kimisima,</h2>
                         <h2>desenvolvedor Front-End.</h2>
-                        <p id="sobre">Sou um desenvolvedor front-end. Minha jornada na programação começou há 2 anos, mas desde então tenho trabalhado diligentemente para aprimorar minhas habilidades e conhecimentos. Estou familiarizado com bibliotecas e frameworks populares, como React, que me permitiram desenvolver projetos mais complexos e dinâmicos e atuou também como freelancer.</p>
+                        <p id="sobre">Estou atualmente cursando Análise em Desenvolvimento de Sistemas para aprimorar minha habilidade técnica. Constantemente busco aprimorar minhas habilidades através do desenvolvimento de projetos pessoais, visando expandir meu conhecimento e experiência. Atuo também como freelancer, oferecendo serviços de desenvolvimento front-end para diversas empresas e clientes.</p>
                     </article>
         </section>
     )

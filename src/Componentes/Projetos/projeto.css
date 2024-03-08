@@ -1,0 +1,66 @@
+.titulo-projeto,
+.subtitulo-projeto {
+    text-align: center;
+}
+
+.titulo-projeto {
+    color: #6932f5;
+    margin-bottom: 15px;
+}
+
+.secao-card-projetos {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card-projetos {
+    width: 360px;
+    height: 485px;
+   
+}
+
+
+.print-card {
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.descricao-projeto {
+    padding: 13px;
+}
+
+.subtitulo-descricao {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.paragrafo-descricao-projetos {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.secao-tecnologias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.tecnologias {
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.link-projetos {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icone-github {
+    width: 50px;
+}

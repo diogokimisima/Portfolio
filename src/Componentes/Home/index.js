@@ -7,12 +7,12 @@ import iconeInsta from '../../img/icone-insta.png';
 export default function Home() {
     return (
         <section className='limitar-secao'>
-            <div className='secao-home'>
+            <div id='home' className='secao-home'>
                 <div className='descricao-home'>
                     <span className='span-desc'>Software Developer</span>
-                    <h2>Diogo Kimisima</h2>
+                    <h1>Diogo Kimisima</h1>
                     <span className='span'>| Front-End Developer</span>
-                    <p>Olá, seja bem vindo(a)! Prepadado(a) para uma experiência arrebatadora? Prazer, sou desenvolvedor Front-end. Fique a vontade para conhecer melhor o meu trabalho.</p>
+                    <p>Olá, seja bem vindo(a)! Prepadado(a) para uma experiência incrível? Prazer, sou desenvolvedor web. Fique a vontade para conhecer melhor o meu trabalho.</p>
 
                     <div className='secao-link'>
                         <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a>
