@@ -17,13 +17,13 @@ export default function Projeto() {
                         <h3 className='subtitulo-descricao'>Pastelaria Kina</h3>
                         <p className='paragrafo-descricao-projetos'>Pastelaria.....</p>
                         <div className='secao-tecnologias'>
-                            <p className='tecnoloEgias'>HTML</p>
+                            <p className='tecnologias'>HTML</p>
                             <p className='tecnologias'>CSS</p>
                             <p className='tecnologias'>JS</p>
                             <p className='tecnologias'>REACT.JS</p>
                         </div>
                         <nav className='link-projetos'>
-                            <a href='/' >Ver projeto</a>
+                            <a className='link-hospedagem' href='/' >Ver projeto</a>
                             <a href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
                         </nav>
                     </div>
@@ -41,7 +41,7 @@ export default function Projeto() {
                             <p className='tecnologias'>REACT.JS</p>
                         </div>
                         <nav className='link-projetos'>
-                            <a href='/' >Ver projeto</a>
+                            <a className='link-hospedagem' href='/' >Ver projeto</a>
                             <a href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
                         </nav>
                     </div>
@@ -59,8 +59,8 @@ export default function Projeto() {
                             <p className='tecnologias'>REACT.JS</p>  
                         </div>
                         <nav className='link-projetos'>
-                            <a href='/' >Ver projeto</a>
-                            <a href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
+                            <a className='link-hospedagem' href='/' >Ver projeto</a>
+                            <a className='link-codigo' href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
                         </nav>
                     </div>
                 </div>

@@ -45,14 +45,18 @@
 .secao-tecnologias {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
 }
 
 .tecnologias {
-    border: 1px solid white;
-    border-radius: 7px;
+    border: 1px solid #757575;
+    border-radius: 8px;
     font-size: 13px;
+    padding: 3px;
+    
+    text-align: center;
 }
 
 .link-projetos {
@@ -62,5 +66,31 @@
 }
 
 .icone-github {
-    width: 50px;
+    width: 35px;
+}
+
+.link-hospedagem {
+    text-decoration: none;
+    background-color: #6932f5;
+    border: solid 2px #6932f5;
+    box-sizing: border-box;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.link-hospedagem:hover,
+.icone-github:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all 0.8s ease-in-out;
+}
+
+.link-hospedagem:hover {
+    background-color: transparent;
 }
