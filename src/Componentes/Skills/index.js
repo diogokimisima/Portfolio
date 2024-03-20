@@ -23,7 +23,7 @@ export default function Skills() {
                     <div className='descricao-skills'>
                         <img className='img-descricao'  src={logoBack} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Back-End</h3>
-                        <p className='paragrafo-descricao'>Node.js</p>
+                        <p className='paragrafo-descricao'>Node.js, MySQL, SQL</p>
                     </div>
                 </article>
 
