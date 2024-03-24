@@ -6,7 +6,7 @@ import iconeInsta from '../../img/icone-insta.png';
 
 export default function Home() {
     return (
-        <section className='limitar-secao'>
+        <main className='limitar-secao'>
             <div id='home' className='secao-home'>
                 <div className='descricao-home'>
                     <span className='span-desc'>Software Developer</span>
@@ -35,6 +35,6 @@ export default function Home() {
                 </div>
             </div>
 
-        </section>
+        </main>
     )
 }

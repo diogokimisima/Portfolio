@@ -7,6 +7,7 @@ import Rodape from './Componentes/Rodape';
 import Projeto from './Componentes/Projetos';
 import Contato from './Componentes/Contato';
 
+
 function App() {
   return (
     <div className="App">

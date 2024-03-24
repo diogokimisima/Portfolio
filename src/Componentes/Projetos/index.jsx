@@ -7,7 +7,7 @@ import iconeGithub from '../../img/icone-github.png'
 
 export default function Projeto() {
     return (
-        <section className='limitar-secao secao-projetos'>
+        <section id='projetos' className='limitar-secao secao-projetos'>
             <h4 className='titulo-projeto'>Hora de navegar em</h4>
             <h2 className='subtitulo-projeto'>Meus projetos</h2>
             <div className='secao-card-projetos'>

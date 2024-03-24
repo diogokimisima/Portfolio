@@ -11,10 +11,9 @@ export default function Topo() {
                     <div>
                         <a href='#home' className='link-topo link-home' to="/" >Home</a>
                         <a href='#sobre' className='link-topo' to="/Sobre">Sobre</a>
-                        <a href='#skills' className='link-topo' to="/Sobre">Skills</a>
-                        <a href='/' className='link-topo' to="/Projetos">Educação</a>
-                        <a href='/' className='link-topo' to="/Projetos">Projetos</a>
-                        <a href='/' className='link-topo' to="/Projetos">Contato</a>
+                        <a href='#skills' className='link-topo' to="/Skills">Skills</a>
+                        <a href='#projetos' className='link-topo' to="/Projetos">Projetos</a>
+                        <a href='#contato' className='link-topo' to="/Projetos">Contato</a>
 
                         
                     </div>
