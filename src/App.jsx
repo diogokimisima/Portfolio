@@ -6,6 +6,7 @@ import Skills from './Componentes/Skills';
 import Rodape from './Componentes/Rodape';
 import Projeto from './Componentes/Projetos';
 import Contato from './Componentes/Contato';
+import Certificados from './Componentes/Certificados';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Projeto />
       <Contato />
+      <Certificados />
       <Rodape />
       
     </div>

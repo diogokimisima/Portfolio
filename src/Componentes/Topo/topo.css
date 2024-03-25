@@ -36,6 +36,10 @@ header div {
     transition: all .8s;
 }
 
+.link-nome {
+        text-decoration: none;
+}
+
 .link-topo::before {
     content: "";
     position: absolute;

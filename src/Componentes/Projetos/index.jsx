@@ -50,8 +50,8 @@ export default function Projeto() {
                 <div className='card-projetos'>
                     <img className='print-card' src={printCardapio} alt="foto-projeto2" />
                     <div className='descricao-projeto'>
-                        <h3 className='subtitulo-descricao'>Agencia de Branding</h3>
-                        <p className='paragrafo-descricao-projetos'>Agencia de Branding</p>
+                        <h3 className='subtitulo-descricao'>Cardapio Restaurante</h3>
+                        <p className='paragrafo-descricao-projetos'>Cardapio restaurante</p>
                         <div className='secao-tecnologias'>
                             <p className='tecnologias'>HTML</p>
                             <p className='tecnologias'>CSS</p>

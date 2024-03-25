@@ -1,0 +1,17 @@
+.secao-certificados {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-certificado {
+    height: 330px;
+    width: auto ;
+}
+
+.card-cerficado {
+    margin-top: 60px;
+}
+
