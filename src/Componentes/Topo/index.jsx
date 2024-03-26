@@ -1,6 +1,11 @@
 import './topo.css';
+import {useState} from "react";
  
 export default function Topo() {
+    const [ativar, setAtivar] = useState("nav-list");
+        const navList = () => {
+            ativar === 'nav-list' ? setAtivar('nav-list nav-active') : setAtivar("nav-list");
+        }
     return (
         <header>
             <div className='limitar-secao navbar'>
@@ -8,14 +13,19 @@ export default function Topo() {
                     <a className='link-nome' href='#home'><h1>Diogo<span>.dev</span></h1></a>
                 </div>
                 <nav>
-                    <div>
+                    <div className="mobile-menu" onClick={navList}>
+                        <div className='line1'></div>
+                        <div className='line2'></div>
+                        <div className='line2'></div>
+                    </div>
+                    
+                    <div className={ativar}>
                         <a href='#home' className='link-topo link-home' to="/" >Home</a>
                         <a href='#sobre' className='link-topo' to="/Sobre">Sobre</a>
                         <a href='#skills' className='link-topo' to="/Skills">Skills</a>
                         <a href='#projetos' className='link-topo' to="/Projetos">Projetos</a>
                         <a href='#contato' className='link-topo' to="/Projetos">Contato</a>
                         <a href='#certificados' className='link-topo' to="/Certificados">Certificados</a>
-                        
                     </div>
                 </nav>
             </div>
