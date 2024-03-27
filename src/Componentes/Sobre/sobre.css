@@ -30,3 +30,29 @@
     line-height: 25px;
 }
 
+@media screen and (max-width: 1040px) {
+    .secao-sobre {
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .secao-sobre img {
+        width: 350px;
+    }
+
+    .sobre-descricao h4{
+        font-size: 10px;
+    }
+    
+    .secao-sobre h2{
+        font-size: 20px;
+    }
+    
+    .secao-sobre p {
+        font-size: 13px;
+        max-width: 400px;
+        
+    }
+}

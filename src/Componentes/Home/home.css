@@ -13,7 +13,7 @@
     padding: 30px;
 }
 
-.descricao-home h1 {
+.titulo-principal {
     margin: 10px 0;
     font-size: 65px;
 }
@@ -127,11 +127,50 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1221px) {
+    .span-desc {
+        font-size: 12px;
+       }
    
-   
+    .titulo-principal {
+    font-size: 50px;
+   }
+
+   .span {
+        font-size: 23px;
+   }
+
+   .descricao-home p {
+    font-size: 15px;
+   }
 
     }
 
+    @media screen and (max-width: 970px) {
+        .secao-home {
+            flex-direction: column-reverse;
+            margin-bottom: 250px;
+        }
 
+        .descricao-home {
+            width: 100%;
     
+        }
+
+        .banner-home img {
+            width: 300px;
+           
+            margin-top: 200px;
+        }
+
+        .banner-home {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+    }
+
+   
