@@ -71,6 +71,7 @@ header div {
 }
 
 @media(max-width: 999px) {
+
     .nav-list {
         position: fixed;
         top: 8vh;

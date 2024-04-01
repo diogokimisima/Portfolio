@@ -23,19 +23,40 @@
 }
 
 .secao-sobre p {
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     width: 600px;
     letter-spacing: 0.5px;
     line-height: 25px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1050px) {
+    .sobre-descricao h4{
+        font-size: 14px;
+    }
+    
+    .secao-sobre h2{
+        font-size: 24px;
+    }
+    
+    .secao-sobre p {
+        font-size: 14px;
+        max-width: 470px;
+    }
+
+    .secao-sobre img {
+        width: 360px;
+    }
+
+    
+}
+
+@media screen and (max-width: 850px) {
     .secao-sobre {
         flex-direction: column;
-        
     }
 }
+
+
 
 @media screen and (max-width: 660px) {
     .secao-sobre img {
@@ -52,7 +73,12 @@
     
     .secao-sobre p {
         font-size: 13px;
-        max-width: 400px;
         
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .secao-sobre p{
+       max-width: 300px; 
     }
 }

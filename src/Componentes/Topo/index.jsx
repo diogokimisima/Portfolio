@@ -7,7 +7,7 @@ export default function Topo() {
             ativar === 'nav-list' ? setAtivar('nav-list nav-active') : setAtivar("nav-list");
         }
     return (
-        <header>
+        <header className='header'>
             <div className='limitar-secao navbar'>
                 <div className='nome-topo'>
                     <a className='link-nome' href='#home'><h1>Diogo<span>.dev</span></h1></a>

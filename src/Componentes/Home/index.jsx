@@ -2,7 +2,8 @@ import './home.css';
 import fotoBanner from '../../img/FotoBanner.jpg';
 import iconeLinkedin from '../../img/icone-linkedin2.png';
 import iconeGithub from '../../img/icone-github.png';
-import iconeInsta from '../../img/icone-insta.png';
+import iconeDevmedia from '../../img/icone-devmedia.png';
+import iconeRocket from  '../../img/icone-rocketseat.png';
 
 export default function Home() {
     return (
@@ -24,7 +25,8 @@ export default function Home() {
                         <div className='secao-minhas-redes'>
                             <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeLinkedin} alt="linkedin" /></a>
                             <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeGithub} alt="github" /></a>
-                            <a href="https://www.instagram.com/diogokimisima/" className='link-social' target='blank'><img src={iconeInsta} alt="instagram" /></a>
+                            <a href="https://www.devmedia.com.br/perfil/diogo-kimisima" className='link-social' target='blank'><img src={iconeDevmedia} alt="instagram" /></a>
+                            <a href="https://www.instagram.com/diogokimisima/" className='link-social link-rocket' target='blank'><img src={iconeRocket} alt="instagram" /></a>
                         </div>
                     </div>
 

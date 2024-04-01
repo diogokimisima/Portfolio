@@ -15,7 +15,7 @@ export default function Projeto() {
                     <img className='print-card' src={printPastelaria} alt="foto-projeto1" />
                     <div className='descricao-projeto'>
                         <h3 className='subtitulo-descricao'>Pastelaria Kina</h3>
-                        <p className='paragrafo-descricao-projetos'>Pastelaria.....</p>
+                        <p className='paragrafo-descricao-projetos'>O site da Pastelaria tem um design moderno e responsivo, o site oferece uma experiência imersiva aos usuários, tornando a exploração do menu e a descoberta sobre o restaurante algo agradável e intuitivo.</p>
                         <div className='secao-tecnologias'>
                             <p className='tecnologias'>HTML</p>
                             <p className='tecnologias'>CSS</p>
@@ -33,7 +33,7 @@ export default function Projeto() {
                     <img className='print-card' src={printAgencia} alt="foto-projeto2" />
                     <div className='descricao-projeto'>
                         <h3 className='subtitulo-descricao'>Agencia de Branding</h3>
-                        <p className='paragrafo-descricao-projetos'>Agencia de Branding</p>
+                        <p className='paragrafo-descricao-projetos'>O site da Agência de Branding oferece uma navegação fluida e intuitiva através do seu portfólio de trabalhos, permitindo aos usuários explorarem os diversos projetos de branding com facilidade e prazer.</p>
                         <div className='secao-tecnologias'>
                             <p className='tecnologias'>HTML</p>
                             <p className='tecnologias'>CSS</p>
@@ -51,7 +51,7 @@ export default function Projeto() {
                     <img className='print-card' src={printCardapio} alt="foto-projeto2" />
                     <div className='descricao-projeto'>
                         <h3 className='subtitulo-descricao'>Cardapio Restaurante</h3>
-                        <p className='paragrafo-descricao-projetos'>Cardapio restaurante</p>
+                        <p className='paragrafo-descricao-projetos'>O site de cardápio oferece uma experiência imersiva e intuitiva, com design moderno e responsivo, tornando a exploração do menu do cardapio mais agradável para os usuários e clientes.</p>
                         <div className='secao-tecnologias'>
                             <p className='tecnologias'>HTML</p>
                             <p className='tecnologias'>CSS</p>

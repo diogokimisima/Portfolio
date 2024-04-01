@@ -22,19 +22,23 @@
 .card-projetos {
     width: 360px;
     height: 485px;
-   
+    margin: 0;
 }
 
 
 .print-card {
     width: 360px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 17px 17px 0 0 ;
 }
 
 .descricao-projeto {
     padding: 13px;
+    padding-bottom: auto;
+    width: 350px;
+    height: 360px;
 }
+
 
 .subtitulo-descricao {
     font-size: 24px;
@@ -101,5 +105,8 @@
 @media screen and (max-width: 1100px) {
     .secao-card-projetos {
         flex-wrap: wrap;
+        gap: 150px;
     }
+
+    
 }
