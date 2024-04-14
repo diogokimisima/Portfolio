@@ -17,7 +17,7 @@ export default function Home() {
 
                     <div className='secao-link'>
                         <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a>
-                        <a className='link link-meus-projetos' href="https://www.linkedin.com/in/diogo-kimisima/" target='blank' >Meus Projetos</a>
+                        <a className='link link-meus-projetos' href='#projetos' >Meus Projetos</a>
                     </div>
 
                     <div className='secao-redes'>

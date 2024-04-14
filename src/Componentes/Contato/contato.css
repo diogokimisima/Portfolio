@@ -58,3 +58,39 @@
 .titulo-contato {
 margin-bottom: 30px;
 }
+
+@media(max-width: 730px) {
+    .formulario input {
+        width: 500px;
+       
+    }
+
+    .formulario textarea {
+        width: 500px;
+       
+    }
+
+    .formulario button {
+        width: 500px;
+        
+    }
+
+}
+
+@media(max-width: 530px) {
+    .formulario input {
+        width: 400px;
+        height: 40px;
+    }
+
+    .formulario textarea {
+        width: 400px;
+       
+    }
+
+    .formulario button {
+        width: 400px;
+        font-size: 15px;
+        height: 40px;
+    }
+}
