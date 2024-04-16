@@ -33,6 +33,7 @@ header div {
     text-decoration: none;
     position: relative;
     transition: all .8s;
+    text-transform: uppercase;
 }
 
 .link-nome {

@@ -1,12 +1,12 @@
 import './App.css';
-import Topo from "./Componentes/Topo";
-import Home from './Componentes/Home';
-import Sobre from './Componentes/Sobre';
-import Skills from './Componentes/Skills';
-import Rodape from './Componentes/Rodape';
-import Projeto from './Componentes/Projetos';
-import Contato from './Componentes/Contato';
-import Certificados from './Componentes/Certificados';
+import Topo from "./Components/Topo";
+import Home from './Components/Home';
+import Sobre from './Components/Sobre';
+import Skills from './Components/Skills';
+import Rodape from './Components/Rodape';
+import Projeto from './Components/Projetos';
+import Contato from './Components/Contato';
+import Certificados from './Components/Certificados';
 
 
 function App() {
