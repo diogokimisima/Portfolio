@@ -53,6 +53,7 @@
 @media screen and (max-width: 850px) {
     .secao-sobre {
         flex-direction: column;
+        margin-top: -180px;
     }
 }
 

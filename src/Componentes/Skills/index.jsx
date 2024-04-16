@@ -15,7 +15,7 @@ export default function Skills() {
                     <div className='descricao-skills'>
                         <img className='img-descricao' src={logoFront} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Front-End</h3>
-                        <p className='paragrafo-descricao'>HTML, CSS, Javascript, React</p>
+                        <p className='paragrafo-descricao'>HTML, CSS, Javascript, TypeScript, React.</p>
                     </div>
                 </article>
 
@@ -23,7 +23,7 @@ export default function Skills() {
                     <div className='descricao-skills'>
                         <img className='img-descricao'  src={logoBack} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Back-End</h3>
-                        <p className='paragrafo-descricao'>Node.js, MySQL, SQL</p>
+                        <p className='paragrafo-descricao'>Node.js, Next.js,MySQL, SQL.</p>
                     </div>
                 </article>
 
@@ -31,7 +31,7 @@ export default function Skills() {
                     <div className='descricao-skills'>
                         <img className='img-descricao'  src={logoFerramentas} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Ferramentas/Plataformas</h3>
-                        <p className='paragrafo-descricao'>Git, GitHub, </p>
+                        <p className='paragrafo-descricao'>Git, GitHub, Figma.</p>
                     </div>
                 </article>
             </div>

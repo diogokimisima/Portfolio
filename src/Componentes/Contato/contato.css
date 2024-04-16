@@ -94,3 +94,17 @@ margin-bottom: 30px;
         height: 40px;
     }
 }
+
+@media(max-width: 410px) {
+    .formulario input {
+        width: 350px;
+    }
+
+    .formulario textarea {
+        width: 350px;
+    }
+
+    .formulario button {
+        width: 350px;
+    }
+}

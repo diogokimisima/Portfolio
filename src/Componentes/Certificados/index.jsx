@@ -5,7 +5,7 @@ import CertificadoReact from '../../img/certificadoReact.jpg';
 export default function Certificados () {
     return(
         <section id='certificados' className='limitar-secao secao-certificados'>
-            <h2>Certificados</h2>
+            <h2 className='titulo-certificado'>Certificados</h2>
             <div className='card-certificado'>
                 <img className='img-certificado' src={CertificadoReact} alt="certificado react" />
             </div>

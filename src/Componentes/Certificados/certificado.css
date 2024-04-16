@@ -1,17 +1,37 @@
 .secao-certificados {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin: 100px 0;
     flex-direction: column;
     align-items: center;
+}
+
+.titulo-certificado{
+    margin-bottom: 20px;
 }
 
 .img-certificado {
     height: 330px;
     width: auto ;
+    border-radius: 10px;
 }
 
 .card-cerficado {
     margin-top: 60px;
 }
+
+@media(max-width: 695px) {
+    .img-certificado {
+        height: 250px;
+        width: auto ;
+    }
+}
+
+@media(max-width: 525px) {
+    .img-certificado {
+        height: 200px;
+        width: auto ;
+    }
+}
+
 

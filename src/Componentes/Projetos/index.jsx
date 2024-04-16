@@ -23,8 +23,8 @@ export default function Projeto() {
                             <p className='tecnologias'>REACT.JS</p>
                         </div>
                         <nav className='link-projetos'>
-                            <a className='link-hospedagem' href='/' >Ver projeto</a>
-                            <a href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
+                            <a className='link-hospedagem' href='https://pastelariakina.com.br' target='blank'>Ver projeto</a>
+                            <a href='https://github.com/diogokimisima/Pastelaria-Kina' ><img className='icone-github' src={iconeGithub} alt="iconegithub" target='blank'/></a>
                         </nav>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ export default function Projeto() {
                             <p className='tecnologias'>REACT.JS</p>
                         </div>
                         <nav className='link-projetos'>
-                            <a className='link-hospedagem' href='/' >Ver projeto</a>
-                            <a href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
+                            <a className='link-hospedagem' href='https://agencia-de-branding-lac.vercel.app' target='blank'>Ver projeto</a>
+                            <a href='https://github.com/diogokimisima/Agencia-de-branding' target='blank'><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
                         </nav>
                     </div>
                 </div>
@@ -59,8 +59,8 @@ export default function Projeto() {
                             <p className='tecnologias'>REACT.JS</p>  
                         </div>
                         <nav className='link-projetos'>
-                            <a className='link-hospedagem' href='/' >Ver projeto</a>
-                            <a className='link-codigo' href='/' ><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
+                            <a className='link-hospedagem' href='https://cardapio-restaurante-ten.vercel.app' target='blank'>Ver projeto</a>
+                            <a className='link-codigo' href='https://github.com/diogokimisima/Cardapio-Restaurante' target='blank'><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
                         </nav>
                     </div>
                 </div>
