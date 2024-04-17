@@ -8,6 +8,7 @@ import Projeto from './Components/Projetos';
 import Contato from './Components/Contato';
 import Certificados from './Components/Certificados';
 import ScrollRevealComponent from './Components/ScrollReveal/scrollReveal';
+import { ScrollToTopButton } from './Components/VoltarTopo';
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
       <Projeto />
       <Contato />
       <Certificados />
+      <ScrollToTopButton  />
       <Rodape />
+      
       
     </div>
   );

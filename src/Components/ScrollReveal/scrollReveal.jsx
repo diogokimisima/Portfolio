@@ -4,13 +4,11 @@ import ScrollReveal from 'scrollreveal';
 const ScrollRevealComponent = () => {
   useEffect(() => {
     const sr = ScrollReveal({
-      // distance: '0px',
       duration: 2500,
       reset: true,
     });
 
   
-    // sr.reveal('.descricao-home span', { delay: 350, origin: 'top' });
     sr.reveal('.descricao-home h1', {distance: '40px', delay: 450, origin: 'left' });
     sr.reveal('.descricao-home span', {distance: '40px', delay: 450, origin: 'right' });
     sr.reveal('.descricao-home p', {distance: '30px', delay: 620, origin: 'right' });

@@ -40,6 +40,21 @@
 .banner-home img {
     width: 460px;
     border-radius: 50%;
+    animation: imgg 2s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+
+@keyframes imgg {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .secao-link {
@@ -129,6 +144,8 @@
     justify-content: center;
     align-items: center;
 }
+
+
 
 
 @media screen and (max-width: 1221px) {
