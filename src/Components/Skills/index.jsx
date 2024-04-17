@@ -16,7 +16,7 @@ export default function Skills() {
                     <div className='descricao-skills'>
                         <img className='img-descricao' src={logoFront} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Front-End</h3>
-                        <p className='paragrafo-descricao'>HTML, CSS, Javascript, TypeScript, React.</p>
+                        <p className='paragrafo-descricao'>HTML, CSS, Tailwind CSS, Javascript, TypeScript, React.</p>
                     </div>
                 </article>
 
