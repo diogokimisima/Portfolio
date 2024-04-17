@@ -7,7 +7,7 @@ import logoFerramentas from '../../img/logo-ferramentas.png'
 
 export default function Skills() {
     return (
-        <section id='skills' className='limitar-secao secao-skills'>
+        <section className='limitar-secao secao-skills'>
             <h4>Tecnologias</h4>
             <h2>Minhas Skills</h2>
             <div className='secao-card-skills'>
@@ -24,15 +24,15 @@ export default function Skills() {
                     <div className='descricao-skills'>
                         <img className='img-descricao'  src={logoBack} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Back-End</h3>
-                        <p className='paragrafo-descricao'>Node.js, Next.js,MySQL, SQL.</p>
+                        <p className='paragrafo-descricao'>Node.js, Next.js, MySQL, SQL.</p>
                     </div>
                 </article>
 
-                <article className='card-skills'>
+                <article  className='card-skills'>
                     <div className='descricao-skills'>
                         <img className='img-descricao'  src={logoFerramentas} alt="icone-front"></img>
                         <h3 className='titulo-descricao'>Ferramentas/Plataformas</h3>
-                        <p className='paragrafo-descricao'>Git, GitHub, Figma.</p>
+                        <p id='projetos' className='paragrafo-descricao'>Git, GitHub, Figma.</p>
                     </div>
                 </article>
             </div>

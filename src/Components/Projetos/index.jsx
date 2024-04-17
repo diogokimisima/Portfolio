@@ -58,7 +58,7 @@ export default function Projeto() {
                             <p className='tecnologias'>JS</p>
                             <p className='tecnologias'>REACT.JS</p>  
                         </div>
-                        <nav className='link-projetos'>
+                        <nav id='contato' className='link-projetos'>
                             <a className='link-hospedagem' href='https://cardapio-restaurante-ten.vercel.app' target='blank'>Ver projeto</a>
                             <a className='link-codigo' href='https://github.com/diogokimisima/Cardapio-Restaurante' target='blank'><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
                         </nav>

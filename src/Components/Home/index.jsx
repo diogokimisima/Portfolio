@@ -20,7 +20,7 @@ export default function Home() {
                         <a className='link link-meus-projetos' href='#projetos' >Meus Projetos</a>
                     </div>
 
-                    <div className='secao-redes'>
+                    <div id="sobre" className='secao-redes'>
                         <p>Minhas redes: </p>
                         <div className='secao-minhas-redes'>
                             <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeLinkedin} alt="linkedin" /></a>

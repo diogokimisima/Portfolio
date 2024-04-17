@@ -7,12 +7,14 @@ import Rodape from './Components/Rodape';
 import Projeto from './Components/Projetos';
 import Contato from './Components/Contato';
 import Certificados from './Components/Certificados';
-
+import ScrollRevealComponent from './Components/ScrollReveal/scrollReveal';
 
 function App() {
   return (
     <div className="App">
+      
       <Topo/>
+      <ScrollRevealComponent/>
       <Home/>
       <Sobre />
       <Skills/>

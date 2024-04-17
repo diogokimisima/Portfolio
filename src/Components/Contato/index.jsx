@@ -1,10 +1,8 @@
 import './contato.css';
 
-
-
 export default function Contato() {
     return (
-        <section id='contato' className='limitar-secao secao-contato'>
+        <section  className='limitar-secao secao-contato'>
             <h4 className='subtitulo-contato'>Ficou interessado(a)?</h4>
             <h2 className='titulo-contato'>Entre em contato</h2>
             <div className='secao-form'>
