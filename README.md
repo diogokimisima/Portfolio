@@ -1,15 +1,12 @@
 <h1 align="center">Meu portifolio</h1>
 
-> 🔎 Bem-vindo ao meu portfólio! Este repositório contém os arquivos do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades.O projeto foi pensado 100% responsivo para que seja utilizado de qualquer dispositivo em qualquer lugar.
-
+> 🔎 Bem-vindo ao meu portfólio!
 <br>
 🗔 Confira a aplicação: https://pastelariakina.com.br <br>
   <img src="" alt="print projeto" width="100%"/>
   
 ## :page_facing_up: Explicação
-
-Este portfólio foi criado com o objetivo de mostrar meu trabalho, experiência e habilidades para potenciais empregadores, clientes ou colaboradores. Aqui você encontrará uma variedade de informações.
-
+Este repositório contém os arquivos do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades. Este portfólio foi criado com o objetivo de mostrar meu trabalho, experiência e habilidades para potenciais empregadores, clientes ou colaboradores. O projeto foi pensado 100% responsivo para que seja utilizado de qualquer dispositivo em qualquer lugar.
 
 ## 📁 Seções da página
 
