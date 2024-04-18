@@ -10,12 +10,12 @@ Este repositório contém os arquivos do meu portfólio pessoal, onde compartilh
 
 ## 📁 Seções da página
 
-Home: uma breve introdução sobre mim, com uma foto, qual área atuo no mercado, link para acessar meu projeto, baixar o curriculo e minha redes sociais.
-Sobre: Sobre quem eu sou, minha experiência e minhas paixões.
-Skills: Uma lista das tecnologias, linguagens de programação e ferramentas que estou familiarizado e que possuo experiência.
-Projetos: Uma lista de projetos nos quais trabalhei, com descrições, capturas de tela e links para demonstrações ao vivo ou código-fonte.
-Contato: Informações de contato para que você possa entrar em contato comigo para oportunidades de colaboração, contratação ou apenas para dizer olá!
-Certificados: Uma lista dos certificados e qualificações relevantes que obtive ao longo da minha carreira.
+-Home: uma breve introdução sobre mim, com uma foto, qual área atuo no mercado, link para acessar meu projeto, baixar o curriculo e minha redes sociais.
+-Sobre: Sobre quem eu sou, minha experiência e minhas paixões.
+-Skills: Uma lista das tecnologias, linguagens de programação e ferramentas que estou familiarizado e que possuo experiência.
+-Projetos: Uma lista de projetos nos quais trabalhei, com descrições, capturas de tela e links para demonstrações ao vivo ou código-fonte.
+-Contato: Informações de contato para que você possa entrar em contato comigo para oportunidades de colaboração, contratação ou apenas para dizer olá!
+-Certificados: Uma lista dos certificados e qualificações relevantes que obtive ao longo da minha carreira.
 
 ## 🚀 Tecnologias ##
 
