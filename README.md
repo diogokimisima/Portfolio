@@ -2,7 +2,7 @@
 
 > 🔎 Bem-vindo ao meu portfólio!
 <br>
-🗔 Confira a aplicação: https://pastelariakina.com.br <br>
+🗔 Confira a aplicação: https://portfolio-dkimisima.vercel.app <br>
   <img src="" alt="print projeto" width="100%"/>
   
 ## :page_facing_up: Explicação
