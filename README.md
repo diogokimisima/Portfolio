@@ -1,2 +1,55 @@
-# Portifolio
- Meu portifolio utilizando React JS
+<h1 align="center">Meu portifolio</h1>
+
+> 🔎 Bem-vindo ao meu portfólio! Este repositório contém os arquivos do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades.O projeto foi pensado 100% responsivo para que seja utilizado de qualquer dispositivo em qualquer lugar.
+
+<br>
+🗔 Confira a aplicação: https://pastelariakina.com.br <br>
+  <img src="" alt="print projeto" width="100%"/>
+  
+## :page_facing_up: Explicação
+
+Este portfólio foi criado com o objetivo de mostrar meu trabalho, experiência e habilidades para potenciais empregadores, clientes ou colaboradores. Aqui você encontrará uma variedade de informações.
+
+
+## 📁 Seções da página
+
+Home: uma breve introdução sobre mim, com uma foto, qual área atuo no mercado, link para acessar meu projeto, baixar o curriculo e minha redes sociais.
+Sobre: Sobre quem eu sou, minha experiência e minhas paixões.
+Skills: Uma lista das tecnologias, linguagens de programação e ferramentas que estou familiarizado e que possuo experiência.
+Projetos: Uma lista de projetos nos quais trabalhei, com descrições, capturas de tela e links para demonstrações ao vivo ou código-fonte.
+Contato: Informações de contato para que você possa entrar em contato comigo para oportunidades de colaboração, contratação ou apenas para dizer olá!
+Certificados: Uma lista dos certificados e qualificações relevantes que obtive ao longo da minha carreira.
+
+## 🚀 Tecnologias ##
+
+- HTML
+- CSS
+- JavaScript
+- React.js: Utilizei React.js como framework front-end para construir componentes reutilizáveis e criar uma experiência de usuário dinâmica.
+- Scrollama: Utilizei a biblioteca Scrollama para criar animações baseadas em scroll, adicionando interatividade e engajamento à página.
+- React Carousel: Utilizei a biblioteca de carrossel do React.js para navegar os certificados de forma elegante e responsiva.
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+## 🤝 Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/132942700?v=4" width="160px;" alt="Foto do Diogo kimisima"/><br>
+        <sub>
+          <b>Diogo Kimisima</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📝 Licença
+
+Este projeto está sob licença. Consulte o arquivo <a href="https://github.com/diogokimisima/portfolio/blob/main/LICENSE">LICENSE</a> para obter mais detalhes.
+
+<a href="#top">Volte para o topo</a>
