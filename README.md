@@ -3,7 +3,7 @@
 > 🔎 Bem-vindo ao meu portfólio!
 <br>
 🗔 Confira a aplicação: https://portfolio-dkimisima.vercel.app <br>
-  <img src="src/img/print-tela.jpg" alt="print projeto" width="100%"/>
+  <img src="src/img/print-tela.jpg" alt="print projeto" border-radius="40px" width="100%"/>
   
 ## :page_facing_up: Explicação
 Este repositório contém os arquivos do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades. Este portfólio foi criado com o objetivo de mostrar meu trabalho, experiência e habilidades para potenciais empregadores, clientes ou colaboradores. O projeto foi pensado 100% responsivo para que seja utilizado de qualquer dispositivo em qualquer lugar.
