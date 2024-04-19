@@ -24,7 +24,7 @@ export default function Home() {
                         <p>Minhas redes: </p>
                         <div className='secao-minhas-redes'>
                             <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeLinkedin} alt="linkedin" /></a>
-                            <a href="https://www.linkedin.com/in/diogo-kimisima/" className='link-social' target='blank'><img src={iconeGithub} alt="github" /></a>
+                            <a href="https://github.com/diogokimisima" className='link-social' target='blank'><img src={iconeGithub} alt="github" /></a>
                             <a href="https://www.devmedia.com.br/perfil/diogo-kimisima" className='link-social' target='blank'><img src={iconeDevmedia} alt="instagram" /></a>
                             {/* <a href="https://www.instagram.com/diogokimisima/" className='link-social link-rocket' target='blank'><img src={iconeRocket} alt="instagram" /></a> */}
                         </div>
