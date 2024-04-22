@@ -1,4 +1,5 @@
 import './sobre.css';
+
 import imagemSobre from '../../img/imagem-sobre1.png'
 
 export default function Sobre() {

@@ -1,4 +1,5 @@
 import './projeto.css';
+
 import printPastelaria from '../../img/pastelariakina.jpg';
 import printCardapio from '../../img/restaurante.jpg';
 import printAgencia from '../../img/agencia.jpg';

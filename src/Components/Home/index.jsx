@@ -1,9 +1,9 @@
 import './home.css';
+
 import fotoBanner from '../../img/FotoBanner.jpg';
 import iconeLinkedin from '../../img/icone-linkedin2.png';
 import iconeGithub from '../../img/icone-github.png';
 import iconeDevmedia from '../../img/icone-devmedia.png';
-// import iconeRocket from  '../../img/icone-rocketseat.png';
 
 export default function Home() {
     return (

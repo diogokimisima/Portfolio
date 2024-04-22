@@ -1,9 +1,8 @@
 import './skills.css';
+
 import logoFront from  '../../img/logo-frontend1.png';
 import logoBack from '../../img/logo-backend.png';
 import logoFerramentas from '../../img/logo-ferramentas.png'
-
-
 
 export default function Skills() {
     return (
