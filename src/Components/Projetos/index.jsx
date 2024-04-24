@@ -1,12 +1,28 @@
+import React, { useState } from 'react';
+
 import './projeto.css';
 
 import printPastelaria from '../../img/pastelariakina.jpg';
 import printCardapio from '../../img/restaurante.jpg';
 import printAgencia from '../../img/agencia.jpg';
-import iconeGithub from '../../img/icone-github.png'
+import printLista from '../../img/print-lista.jpg';
+import iconeGithub from '../../img/icone-github.png';
 
 
 export default function Projeto() {
+    const [verMais, setVerMais] = useState(false);
+    const [fraseBotao, setFraseBotao] = useState("Ver mais")
+
+    const handleVerMaisClick = () => {
+        if (verMais) {
+            setVerMais(false);
+            setFraseBotao('Ver mais')
+        } else {
+            setVerMais(true);
+            setFraseBotao('Ver menos')
+        }
+    };
+
     return (
         <section id='projetos' className='limitar-secao secao-projetos'>
             <h4 className='titulo-projeto'>Hora de navegar em</h4>
@@ -25,11 +41,10 @@ export default function Projeto() {
                         </div>
                         <nav className='link-projetos'>
                             <a className='link-hospedagem' href='https://pastelariakina.com.br' target='blank'>Ver projeto</a>
-                            <a href='https://github.com/diogokimisima/Pastelaria-Kina' ><img className='icone-github' src={iconeGithub} alt="iconegithub" target='blank'/></a>
+                            <a href='https://github.com/diogokimisima/Pastelaria-Kina' ><img className='icone-github' src={iconeGithub} alt="iconegithub" target='blank' /></a>
                         </nav>
                     </div>
                 </div>
-
                 <div className='card-projetos'>
                     <img className='print-card' src={printAgencia} alt="foto-projeto2" />
                     <div className='descricao-projeto'>
@@ -47,9 +62,8 @@ export default function Projeto() {
                         </nav>
                     </div>
                 </div>
-
                 <div className='card-projetos'>
-                    <img className='print-card' src={printCardapio} alt="foto-projeto2" />
+                    <img className='print-card' src={printCardapio} alt="foto-projeto3" />
                     <div className='descricao-projeto'>
                         <h3 className='subtitulo-descricao'>Cardapio Restaurante</h3>
                         <p className='paragrafo-descricao-projetos'>O site de cardápio oferece uma experiência imersiva e intuitiva, com design moderno e responsivo, tornando a exploração do menu do cardapio mais agradável para os usuários e clientes.</p>
@@ -57,7 +71,7 @@ export default function Projeto() {
                             <p className='tecnologias'>HTML</p>
                             <p className='tecnologias'>CSS</p>
                             <p className='tecnologias'>JS</p>
-                            <p className='tecnologias'>REACT.JS</p>  
+                            <p className='tecnologias'>REACT.JS</p>
                         </div>
                         <nav id='contato' className='link-projetos'>
                             <a className='link-hospedagem' href='https://cardapio-restaurante-ten.vercel.app' target='blank'>Ver projeto</a>
@@ -67,6 +81,39 @@ export default function Projeto() {
                 </div>
 
             </div>
+
+            <div className='secao-projeto-ver-mais'>
+                {verMais && (
+                    <div className='secao-card-projetos'>
+                        <div className='card-projetos'>
+                            <img className='print-card' src={printLista} alt="foto-projeto4" />
+                            <div className='descricao-projeto'>
+                                <h3 className='subtitulo-descricao'>Lista de Participantes</h3>
+                                <p className='paragrafo-descricao-projetos'>O site projeto Lista de Participantes de Evento, uma aplicação front-end em ReactJS. Esta aplicação permite listar participantes de um evento, realizar buscas, navegar pelas páginas da lista e visualizar detalhes de cada participantes. </p>
+                                <div className='secao-tecnologias'>
+                                    <p className='tecnologias'>REACT.JS</p>
+                                    <p className='tecnologias'>TYPESCRIPT</p>
+                                    <p className='tecnologias'>TAILWIND</p>
+                                    
+                                </div>
+                                <nav id='contato' className='link-projetos'>
+                                    <a className='link-hospedagem' href='https://lista-participantes-evento.vercel.app' target='blank'>Ver projeto</a>
+                                    <a className='link-codigo' href='https://github.com/diogokimisima/Lista-participantes-evento' target='blank'><img className='icone-github' src={iconeGithub} alt="iconegithub" /></a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                )}
+            </div>
+
+
+            <div className='secao-botao-ver'>
+                <button className='botao-ver' onClick={handleVerMaisClick}>{fraseBotao}</button>
+            </div>
+
+
+
+
         </section>
-    )
+    );
 }
