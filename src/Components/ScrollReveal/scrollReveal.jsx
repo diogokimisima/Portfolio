@@ -25,10 +25,9 @@ const ScrollRevealComponent = () => {
     sr.reveal('.secao-skills h2', { delay: 290, origin: 'right' });
     sr.reveal('.card-skills', { delay: 320, origin: 'left' });
 
-    sr.reveal('.secao-projetos', {distance: '40px', delay: 420, origin: 'left' });
+    sr.reveal('.secao-card-projetos', {distance: '40px', delay: 420, origin: 'left' });
     sr.reveal('.secao-contato', {distance: '40px', delay: 300, origin: 'top' });
 
-    sr.reveal('.secao-certificados', {distance: '40px', delay: 300, origin: 'top' });
 
   }, []);
 };
