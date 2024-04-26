@@ -1,4 +1,3 @@
-import React from 'react';
 import iconeGithub from '../../img/icone-github.png';
 
 const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, hospedagemLink, githubLink }) => {

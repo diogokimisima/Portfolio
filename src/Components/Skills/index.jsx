@@ -1,6 +1,7 @@
 import './skills.css';
+import SkillsCard from './skillsCard';
 
-import logoFront from  '../../img/logo-frontend1.png';
+import logoFront from '../../img/logo-frontend1.png';
 import logoBack from '../../img/logo-backend.png';
 import logoFerramentas from '../../img/logo-ferramentas.png'
 
@@ -10,30 +11,23 @@ export default function Skills() {
             <h4>Tecnologias</h4>
             <h2>Minhas Skills</h2>
             <div className='secao-card-skills'>
+                <SkillsCard
+                    imagem={logoFront}
+                    descricao='Front-End'
+                    tecnologias={['HTML, CSS, Tailwind CSS, Javascript, TypeScript, React.']}
+                />
 
-                <article className='card-skills'>
-                    <div className='descricao-skills'>
-                        <img className='img-descricao' src={logoFront} alt="icone-front"></img>
-                        <h3 className='titulo-descricao'>Front-End</h3>
-                        <p className='paragrafo-descricao'>HTML, CSS, Tailwind CSS, Javascript, TypeScript, React.</p>
-                    </div>
-                </article>
+                <SkillsCard
+                    imagem={logoBack}
+                    descricao='Back-end'
+                    tecnologias={['Node.js, MySQL, SQL.']}
+                />
 
-                <article className='card-skills'>
-                    <div className='descricao-skills'>
-                        <img className='img-descricao'  src={logoBack} alt="icone-front"></img>
-                        <h3 className='titulo-descricao'>Back-End</h3>
-                        <p className='paragrafo-descricao'>Node.js, MySQL, SQL.</p>
-                    </div>
-                </article>
-
-                <article  className='card-skills'>
-                    <div className='descricao-skills'>
-                        <img className='img-descricao'  src={logoFerramentas} alt="icone-front"></img>
-                        <h3 className='titulo-descricao'>Ferramentas/Plataformas</h3>
-                        <p id='projetos' className='paragrafo-descricao'>Git, GitHub, Figma.</p>
-                    </div>
-                </article>
+                <SkillsCard
+                    imagem={logoFerramentas}
+                    descricao='Ferramentas/Plataformas'
+                    tecnologias={['Git, GitHub, Figma.']}
+                />
             </div>
         </section >
     )

@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import './certificado.css';
+import CertificadoCards from './certificadoCards';
 import './certificado.css';
 
 import CertificadoNlw from '../../img/certificadoNlw.jpg';
@@ -25,7 +25,12 @@ export default function Certificados() {
             <h2 className='titulo-certificado'>Certificados</h2>
             <div className='card-certificado'>
                 <Slider {...settings}>
-                    <div>
+
+                    <CertificadoCards img={CertificadoNlw}/>
+                    <CertificadoCards img={CertificadoReact}/>
+                    <CertificadoCards img={CertificadoJavaScript}/>
+
+                    {/* <div>
                         <img className='img-certificado' src={CertificadoNlw} alt="certificado react" />
                     </div>
                     <div>
@@ -33,7 +38,7 @@ export default function Certificados() {
                     </div>
                     <div>
                         <img className='img-certificado' src={CertificadoJavaScript} alt="certificado javascript" />
-                    </div>
+                    </div> */}
                 </Slider>
             </div>
         </section>
