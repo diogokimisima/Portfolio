@@ -17,7 +17,7 @@ export default function Certificados() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        arrows: false,
     };
 
     return (
@@ -25,20 +25,9 @@ export default function Certificados() {
             <h2 className='titulo-certificado'>Certificados</h2>
             <div className='card-certificado'>
                 <Slider {...settings}>
-
                     <CertificadoCards img={CertificadoNlw}/>
                     <CertificadoCards img={CertificadoReact}/>
                     <CertificadoCards img={CertificadoJavaScript}/>
-
-                    {/* <div>
-                        <img className='img-certificado' src={CertificadoNlw} alt="certificado react" />
-                    </div>
-                    <div>
-                        <img className='img-certificado' src={CertificadoReact} alt="certificado react" />
-                    </div>
-                    <div>
-                        <img className='img-certificado' src={CertificadoJavaScript} alt="certificado javascript" />
-                    </div> */}
                 </Slider>
             </div>
         </section>

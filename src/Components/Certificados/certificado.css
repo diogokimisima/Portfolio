@@ -24,6 +24,19 @@
   .slick-dots li button:before {
     color: rgb(15, 124, 214); 
   }
+
+  .slick-slide {
+    transition: opacity 0.5s ease;
+}
+
+.slick-slide.slick-current {
+    opacity: 1;
+}
+
+.slick-slide:not(.slick-current) {
+    opacity: 0.5;
+}
+
   
   @media (max-width: 695px) {
     .img-certificado {
