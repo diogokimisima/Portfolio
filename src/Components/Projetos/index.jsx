@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import ProjetoCard from './projetocard.jsx';
 import './projeto.css';
+
 import printPastelaria from '../../img/pastelariakina.jpg';
 import printCardapio from '../../img/restaurante.jpg';
 import printAgencia from '../../img/agencia.jpg';
 import printLista from '../../img/print-lista.jpg';
+import printNotes from '../../img/print-notes.png';
 
 export default function Projeto() {
     const [verMais, setVerMais] = useState(false);
@@ -34,6 +36,14 @@ export default function Projeto() {
                     githubLink='https://github.com/diogokimisima/Pastelaria-Kina'
                 />
                 <ProjetoCard
+                    imagem={printNotes}
+                    titulo='Virtual Notes'
+                    descricao='O projeto "Notes" é uma aplicação full stack que visa proporcionar uma experiência intuitiva e eficiente na gestão de anotações pessoais ou profissionais. A aplicação é responsivo com funcionalidades práticas, facilitando a organização e o acesso rápido às informações armazenadas pelos usuários.'
+                    tecnologias={['React.js', 'SQLite', 'Node.js', 'Styled Components']}
+                    hospedagemLink='https://cardapio-restaurante-ten.vercel.app'
+                    githubLink='https://github.com/diogokimisima/Cardapio-Restaurante'
+                />
+                <ProjetoCard
                     imagem={printAgencia}
                     titulo='Agencia de Branding'
                     descricao='O site da Agência de Branding oferece uma navegação fluida e intuitiva através do seu portfólio de trabalhos, permitindo aos usuários explorarem os diversos projetos de branding com facilidade e prazer.'
@@ -41,15 +51,8 @@ export default function Projeto() {
                     hospedagemLink='https://agencia-de-branding-lac.vercel.app'
                     githubLink='https://github.com/diogokimisima/Agencia-de-branding'
                 />
-                <ProjetoCard
-                    imagem={printCardapio}
-                    titulo='Cardapio Restaurante'
-                    descricao='O site de cardápio oferece uma experiência imersiva e intuitiva, com design moderno e responsivo, tornando a exploração do menu do cardapio mais agradável para os usuários e clientes.'
-                    tecnologias={['HTML', 'CSS', 'JS', 'REACT.JS']}
-                    hospedagemLink='https://cardapio-restaurante-ten.vercel.app'
-                    githubLink='https://github.com/diogokimisima/Cardapio-Restaurante'
-                />
-                {/* Se desejar, adicione mais ProjetoCard para outros projetos */}
+
+
             </div>
 
             <div className='secao-projeto-ver-mais'>
@@ -63,7 +66,15 @@ export default function Projeto() {
                             hospedagemLink='https://lista-participantes-evento.vercel.app'
                             githubLink='https://github.com/diogokimisima/Lista-participantes-evento'
                         />
-                        {/* Adicione mais ProjetoCards aqui, se necessário */}
+                        <ProjetoCard
+                            imagem={printCardapio}
+                            titulo='Cardapio Restaurante'
+                            descricao='O site de cardápio oferece uma experiência imersiva e intuitiva, com design moderno e responsivo, tornando a exploração do menu do cardapio mais agradável para os usuários e clientes.'
+                            tecnologias={['HTML', 'CSS', 'JS', 'REACT.JS']}
+                            hospedagemLink='https://cardapio-restaurante-ten.vercel.app'
+                            githubLink='https://github.com/diogokimisima/Cardapio-Restaurante'
+                        />
+
                     </div>
                 )}
             </div>

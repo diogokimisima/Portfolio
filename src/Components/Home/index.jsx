@@ -13,7 +13,7 @@ export default function Home() {
                 <div className='descricao-home'>
                     <span className='span-desc'>Software Developer</span>
                     <h1 className='titulo-principal'>Diogo Kimisima</h1>
-                    <span className='span'>| Front-End Developer</span>
+                    <span className='span'>| Full-Stack Developer</span>
                     <p>Olá, seja bem vindo(a)! Preparado(a) para uma experiência incrível? Prazer, sou desenvolvedor web. Fique a vontade para conhecer melhor o meu trabalho.</p>
 
                     <div className='secao-link'>
