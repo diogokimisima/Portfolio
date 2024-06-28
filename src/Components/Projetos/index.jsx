@@ -40,8 +40,8 @@ export default function Projeto() {
                     titulo='Virtual Notes'
                     descricao='O projeto "Notes" é uma aplicação full stack que visa proporcionar uma experiência intuitiva e eficiente na gestão de anotações pessoais ou profissionais. A aplicação é responsivo com funcionalidades práticas, facilitando a organização e o acesso rápido às informações armazenadas pelos usuários.'
                     tecnologias={['React.js', 'SQLite', 'Node.js', 'Styled Components']}
-                    hospedagemLink='https://cardapio-restaurante-ten.vercel.app'
-                    githubLink='https://github.com/diogokimisima/Cardapio-Restaurante'
+                    hospedagemLink='https://virtual-notes.vercel.app'
+                    githubLink='https://github.com/diogokimisima/frontend-notes'
                 />
                 <ProjetoCard
                     imagem={printAgencia}
