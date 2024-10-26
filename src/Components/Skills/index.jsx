@@ -14,19 +14,19 @@ export default function Skills() {
                 <SkillsCard
                     imagem={logoFront}
                     descricao='Front-End'
-                    tecnologias={['Javascript, TypeScript, React, Vue, Tailwind CSS, Styled Components']}
+                    tecnologias={['Javascript, TypeScript, React, Vue, Next, Tailwind CSS, Styled Components']}
                 />
 
                 <SkillsCard
                     imagem={logoBack}
                     descricao='Back-end'
-                    tecnologias={['Node.js, PHP, MySQL, SQL.']}
+                    tecnologias={['Node.js, PHP, Laravel, e SQL.']}
                 />
 
                 <SkillsCard
                     imagem={logoFerramentas}
                     descricao='Ferramentas/Plataformas'
-                    tecnologias={['Git, GitHub, Figma.']}
+                    tecnologias={['Git, Docker e Figma.']}
                 />
             </div>
         </section >
