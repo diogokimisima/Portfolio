@@ -11,7 +11,7 @@ export default function Home() {
         <main className='limitar-secao'>
             <div id='home' className='secao-home'>
                 <div className='descricao-home'>
-                    <span className='span-desc'>Software Developer</span>
+                    <span className='span-desc'>Web Developer</span>
                     <h1 className='titulo-principal'>Diogo Kimisima</h1>
                     <span className='span'>| Full-Stack Developer</span>
                     <p>Olá, seja bem vindo(a)! Preparado(a) para uma experiência incrível? Prazer, sou desenvolvedor web. Fique a vontade para conhecer melhor o meu trabalho.</p>
