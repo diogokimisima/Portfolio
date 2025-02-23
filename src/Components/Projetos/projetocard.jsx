@@ -13,8 +13,16 @@ const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, hospedagemLink, g
                     ))}
                 </div>
                 <nav className='link-projetos'>
-                    <a className='link-hospedagem' href={hospedagemLink} target='_blank' rel='noopener noreferrer'>Ver projeto</a>
-                    <a href={githubLink} target='_blank' rel='noopener noreferrer'><img className='icone-github' src={iconeGithub} alt='iconegithub' /></a>
+                    {hospedagemLink ? (
+                        <a className='link-hospedagem' href={hospedagemLink} target='_blank' rel='noopener noreferrer'>
+                            Ver projeto
+                        </a>
+                    ) : (
+                        <p className='link-hospedagem'>não disponível</p>
+                    )}
+                    <a href={githubLink} target='_blank' rel='noopener noreferrer'>
+                        <img className='icone-github' src={iconeGithub} alt='iconegithub' />
+                    </a>
                 </nav>
             </div>
         </div>
