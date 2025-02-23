@@ -36,6 +36,10 @@
 .descricao-projeto {
     padding: 13px;
     padding-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o conteúdo igualmente */
+    height: 100%; /* Garante que ocupe toda a altura disponível */
     width: 350px;
     height: 360px;
 }
