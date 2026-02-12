@@ -34,8 +34,10 @@ export default function Home() {
 
                 </div>
                 <div className='banner-home'>
-                    <img src={fotoBanner} alt="imagem" />
-
+                    <img 
+                        src="https://github.com/diogokimisima.png" 
+                        alt="Foto de perfil do GitHub - Diogo Kimisima" 
+                    />
                 </div>
             </div>
 
