@@ -8,6 +8,7 @@ import Rodape from './Components/Rodape';
 import Projeto from './Components/Projetos';
 // import Contato from './Components/Contato';
 import Certificados from './Components/Certificados';
+import Formacao from './Components/Formacao';
 import ScrollRevealComponent from './Components/ScrollReveal/scrollReveal';
 import { ScrollToTopButton } from './Components/VoltarTopo';
 
@@ -22,6 +23,7 @@ function App() {
       <Skills/>
       <Projeto />
       {/* <Contato /> */}
+      <Formacao />
       <Certificados />
       <ScrollToTopButton  />
       <Rodape />
