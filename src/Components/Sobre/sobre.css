@@ -6,8 +6,14 @@
     margin-bottom: 100px;
 }
 
-.secao-sobre img {
+.sobre-ilustracao {
     width: 450px;
+    flex-shrink: 0;
+}
+
+.sobre-ilustracao svg {
+    width: 100%;
+    height: auto;
 }
 
 .sobre-descricao h4{
@@ -43,7 +49,7 @@
         max-width: 470px;
     }
 
-    .secao-sobre img {
+    .sobre-ilustracao {
         width: 360px;
     }
 
@@ -60,8 +66,8 @@
 
 
 @media screen and (max-width: 660px) {
-    .secao-sobre img {
-        width: 350px;
+    .sobre-ilustracao {
+        width: 320px;
     }
 
     .sobre-descricao h4{

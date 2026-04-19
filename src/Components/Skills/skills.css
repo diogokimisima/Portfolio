@@ -18,7 +18,7 @@
 .secao-card-skills {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
     max-width: 1100px;
     margin: 0 auto;
     
@@ -26,34 +26,35 @@
 
 .card-skills {
     width: 300px;
-    height: 240px;
+    min-height: 240px;
     padding: 30px;
     margin-bottom: 40px;
     border-radius: 20px;
     background-color: #262626;
 }
 
-.descricao-skills {
-    background-color: #262626;
-    
-}
-
-.img-descricao {
-    background-color: #262626;
-}
-
 .titulo-descricao {
-    background-color: #262626;
     margin-bottom: 10px;
 }
 
-.paragrafo-descricao {
+.descricao-skills {
     background-color: #262626;
 }
 
-.descricao-skills img {
-    width: 70px;
-    margin-bottom: 6px;
+.icon-descricao {
+    display: inline-block;
+    margin-bottom: 16px;
+    background-color: #262626;
+}
+
+.icon-descricao svg {
+    display: block;
+    background: transparent;
+}
+
+.titulo-descricao,
+.paragrafo-descricao {
+    background-color: #262626;
 }
 
 @media screen and (max-width: 960px) {

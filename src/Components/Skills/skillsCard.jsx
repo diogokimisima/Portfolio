@@ -1,8 +1,8 @@
-const SkillsCard = ({ imagem, descricao, tecnologias }) => {
+const SkillsCard = ({ icon, descricao, tecnologias }) => {
     return (
         <article className='card-skills'>
             <div className='descricao-skills'>
-                <img className='img-descricao' src={imagem} alt="icone-front"></img>
+                <div className='icon-descricao'>{icon}</div>
                 <h3 className='titulo-descricao'>{descricao}</h3>
                 {tecnologias.map(tecnologia => (
                     <p className='paragrafo-descricao' key={tecnologia}> {tecnologia} </p>
