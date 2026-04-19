@@ -23,6 +23,7 @@ export default function Topo() {
                     <div className={ativar}>
                         <a href='#home' className='link-topo link-home' to="/" >Home</a>
                         <a href='#sobre' className='link-topo' to="/Sobre">Sobre</a>
+                        <a href='#formacao' className='link-topo' to="/Formacao">Formação</a>
                         <a href='#skills' className='link-topo' to="/Skills">Skills</a>
                         <a href='#projetos' className='link-topo' to="/Projetos">Projetos</a>
                         {/* <a href='#contato' className='link-topo' to="/Projetos">Contato</a> */}

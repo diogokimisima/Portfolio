@@ -20,10 +20,10 @@ function App() {
       <ScrollRevealComponent/>
       <Home/>
       <Sobre />
+      <Formacao />
       <Skills/>
       <Projeto />
       {/* <Contato /> */}
-      <Formacao />
       <Certificados />
       <ScrollToTopButton  />
       <Rodape />
